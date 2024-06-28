@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 50px;
+    background-color: red
+}
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 204);
+}
+.items{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+}
+.navbar-toggler {
+    background-color: white; /* Đổi màu nền của nút thành màu vàng */
+    border-color: white; /* Đổi màu viền của nút thành màu vàng */
+}
+
+.navbar-toggler:hover {
+    background-color: pink; /* Màu nền khi di chuột qua */
+    border-color: pink; /* Màu viền khi di chuột qua */
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://lh5.googleusercontent.com/proxy/WnIJ2LQK-z7-KMxVwv8BSB2CaMjVuqiiXnZs4HlwMEcC_gRmgKgYCqzkHJRhjn8g7DjocUrmDn5JTHge-plekcwhjrATeUEeJBOYzDAi'); /* Thay đổi biểu tượng icon của nút */
+    background-size: cover; /* Đảm bảo kích thước icon phù hợp */
+    width: 24px; /* Điều chỉnh chiều rộng của icon */
+    height: 24px; /* Điều chỉnh chiều cao của icon */
+}
+.nav-link{
+    color: aliceblue;
+}
+.mess{
+    margin-top: 100px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.banner11{
+    height: 700px;
+}
+.textinfor{
+    margin: 0;
+    height: 66vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.textinforcenter{
+    width: 100%;
+    height: auto;
+
+}
+.imagecomsize {
+    max-width: 100%; /* Giới hạn chiều rộng tối đa là 100% của phần tử cha */
+    height: auto; /* Đảm bảo tỷ lệ chiều cao tự động */
+    max-height: 100%; /* Giới hạn chiều cao tối đa là 400px */
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.buttt11{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.black-box {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(34, 34, 34);
+    border: 2px solid rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.textnewdate{
+    color: gray;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 200px;
+}
+.textnewssub{
+    text-align: left;
+    margin-left: 200px;
+    color: white;
+}
+.textnewobj{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 200px;
+    color: white;
+}
+.buttonnews{
+    width: 100%;
+    height: 15%;
+    background-color:rgb(34, 34, 34);
+    cursor: pointer;
+    border: 1px solid rgb(34, 34, 34);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0;
+    align-items: center;
+}
+.buttonnews:hover {
+    background-color: pink;
+}
+.textnewmore{
+    color: gray;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 200px;
+}
+.black-box2 {
+    min-width: 80%;
+    height: 40vh;
+    background-color: black;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.logoandtext{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+.logoinsta{
+    width: 50px;
+    height: 50px;
+}
+.pictureinsta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    gap: 10px;
+    width: 100%;
+    height: 70%;
+}
+.imageinsta{
+    width: 24%;
+    height: 100%;
+}
+.buttoninsta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.buttoninsta2{
+    background-color: rgba(64, 139, 209);
+    color: white;
+    font-size: 10px;
+    padding: 7px, 14px;
+    width: 150px;
+    height: 35px;
+}
+.buttoninsta1{
+    background-color:rgb(51, 51, 51);
+    color: white;
+    font-size: 10px;
+    padding: 7px, 14px;
+    width: 150px;
+    height: 35px;
+}
+.footermenu{
+    background-color: rgb(246,246,246);
+}
+.footerrrr{
+    display: flex;
+    max-width: 90%;
+    height: 50vh;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 20vh;
+}
+.footerrrr2{
+    display: flex;
+    max-width: 100%;
+    height: 50vh;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(238,238,238);
+}
+.p-social-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logoinsta2{
+    width: 20px;
+    height: 20px;
+}
